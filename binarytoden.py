@@ -1,5 +1,5 @@
-def bin_den(bin):
-    result = 0
-    for index in range(len(bin)):
-        result = result + int(list(bin)[-index-1])*(2**index)
-    return result
+def BinToDen(A):
+    Denary = 0
+    for i in range(len(A)):
+        Denary = Denary + (2**i)*int(A[-i-1])
+    return Denary
